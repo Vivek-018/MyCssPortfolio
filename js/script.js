@@ -7,27 +7,6 @@ menuIcon.onclick= () =>{
      navbar.classList.toggle('active');
 };
 
-// ReadMore 
-
-document.getElementById('read-more-btn').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent default action
-
-    var moreContent = document.getElementById('more-content');
-    var readMoreBtn = document.getElementById('read-more-btn');
-
-    if (moreContent.style.display === 'none') {
-      moreContent.style.display = 'block';
-      readMoreBtn.textContent = 'Read Less';
-    } else {
-      moreContent.style.display = 'none';
-      readMoreBtn.textContent = 'Read More';
-    }
-  });
-
-
-
-
-
 // scroll section active line
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -76,8 +55,8 @@ ScrollReveal().reveal('.home-content p,.about-content', { origin: 'right' });
 // ************************typed js ****************************
 
 const typed =new Typed('.multiple-text',                                                                        {
-    strings:['Full-Stack Web Developer','Computer Engineer','YouTuber','Tech Enthusiast'],
-    typeSpeed:100,
+    strings:['Full-Stack Web Developer','Software Engineer','Tech Enthusiast'],
+    typeSpeed:80,
     backSpeed:100,
     backDelay:1000,
     loop:true
