@@ -7,7 +7,7 @@ Welcome to my portfolio website! This site showcases my skills, projects, and pa
 ## Getting Started
 
 To view the live version of this portfolio:
-- Visit [Vivek Kumar's Portfolio](www.google.com) 
+- Visit [Vivek Kumar's Portfolio](https://my-css-portfolio.vercel.app/) 
 
 ## About Me
 
